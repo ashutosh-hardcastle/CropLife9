@@ -1,0 +1,74 @@
+{% extends 'layout.html' %} {% block body %}
+
+<style>
+  html body {
+    background-color: rgb(255, 255, 255);
+  }
+</style>
+<!--Form Section-->
+<br /><br />
+<h2 style="text-align: center; margin: 0px; color: black">
+  <b>Get informed advice on pesticides based on pests</b>
+</h2>
+<br />
+
+<div
+  style="
+    width: 350px;
+    height: 40rem;
+    margin: 0px auto;
+    color: black;
+    border-radius: 25px;
+    padding: 10px 10px;
+  "
+>
+<form action="/pest_result" method="POST">
+<!--  <label for="aphids">First name:</label>-->
+<!--  <input type="text" id="aphids" name="fname"><br><br>-->
+    <select name="pestname"  class="form-control" style="font-weight: bold" required>
+        <option selected value="">Select Pest</option>
+        <option value="aphids">Aphids</option>
+        <option value="armyworm">Armyworm</option>
+        <option value="beetle">Beetle</option>
+        <option value="bollworm">Bollworm</option>
+        <option value="corn_borer">Corn Borer</option>
+        <option value="gall_flies">Gall Flies</option>
+        <option value="grasshopper">Grasshopper</option>
+        <option value="locust">Locust</option>
+        <option value="maize_army_worm">Maize Army Worm</option>
+        <option value="mites">Mites</option>
+        <option value="mosquito">Mosquito</option>
+        <option value="mustard_saw_fly">Mustard Saw Fly</option>
+        <option value="sawfly">Sawfly</option>
+        <option value="soybean_girdle_beetle">Soybean Girdle Beetle</option>
+        <option value="soybean_white_fly">Soybean White Fly</option>
+        <option value="stem_borer">Stem Borer</option>
+        <option value="sugarcane_internode_borer">Sugarcane Internode Borer</option>
+        <option value="sugarcane_mealy_bug">Sugarcane Mealy Bug</option>
+        <option value="thistle_caterpillar">Thistle Caterpillar</option>
+        <option value="tobacco_leaf_eating_caterpillar">Tobacco Leaf-eating Caterpillar</option>
+    </select>
+    <br>
+    <br>
+    <div class="d-flex justify-content-center">
+    <button
+        type="submit"
+        class="btn btn-info"
+        style="
+          text-align: center;
+          vertical-align: middle;
+          color: black;
+          font-weight: bold;
+          width: 130px;
+          height: 50px;
+          border-radius: 12px;
+          font-size: 21px;
+
+        "
+      >
+        Get Insights
+      </button>
+</div>
+</form>
+</div>
+{% endblock %}
