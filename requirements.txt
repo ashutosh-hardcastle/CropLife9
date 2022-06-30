@@ -4,5 +4,5 @@ Pandas==1.4.2
 numpy
 Pillow
 gunicorn == 20.0.4
-torch==1.8.1+cpu f
-torchvision==0.9.1+cpu f
+torch==1.8.1+cpu
+torchvision==0.9.1+cpu
