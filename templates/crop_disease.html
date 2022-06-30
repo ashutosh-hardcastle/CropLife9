@@ -37,15 +37,18 @@
       <br>
       <br>
 
-      <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3"> Test Your Plants</h3>
+      <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3"> Find out the disease your plant</h3>
       <div class="row" style="justify-content: center;">
         <form action="{{ url_for('disease_predict') }}" method="POST" enctype=multipart/form-data>
           <div class="form-group text-center">
-            <label for="exampleFormControlFile1"><b>Input a file</b></label>
+            <label for="exampleFormControlFile1"><b>Upload an Image</b></label>
+
             <input type="file" name="file" class="form-control-file" id="inputImage" onchange=previewImage(event)
               required>
-            <br />
-            <button class="btn btn-primary" type="submit"> Predict </button>
+            <br/>
+            <br>
+
+            <button class="btn btn-lg btn-primary btn-block" type="submit" style="font-weight: bold;">Predict</button>
           </div>
         </form>
       </div>
