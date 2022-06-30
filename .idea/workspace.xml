@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7de37529-de44-4517-9f3e-5a2d8f3edcfc" name="Changes" comment="DiseaseUpdate">
+    <list default="true" id="7de37529-de44-4517-9f3e-5a2d8f3edcfc" name="Changes" comment="DiseaseUpdate5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
@@ -151,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656572052492</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="DiseaseUpdate5">
+      <created>1656572902579</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656572902579</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +175,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Req" />
     <MESSAGE value="DiseaseUpdate" />
-    <option name="LAST_COMMIT_MESSAGE" value="DiseaseUpdate" />
+    <MESSAGE value="DiseaseUpdate5" />
+    <option name="LAST_COMMIT_MESSAGE" value="DiseaseUpdate5" />
   </component>
 </project>
