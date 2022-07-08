@@ -35,7 +35,7 @@ def pest_recommend():
 @app.route('/fertilizer')
 def fertilizer_recommendation():
     title = 'CropLife'
-    return render_template('fertilizer.html', title=title)
+    return render_template('fertilizer2.html', title=title)
 
 
 #########Post Functions##########
@@ -76,7 +76,7 @@ def fert_recommend():
     K = int(request.form['pottasium'])
     # ph = float(request.form['ph'])
 
-    df = pd.read_csv('Data/fertilizer.csv')
+    df = pd.read_csv('Data/fertilizer_data.csv')
 
     nr = df[df['Crop'] == crop_name]['N'].iloc[0]
     pr = df[df['Crop'] == crop_name]['P'].iloc[0]

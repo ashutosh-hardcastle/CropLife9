@@ -4,9 +4,146 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7de37529-de44-4517-9f3e-5a2d8f3edcfc" name="Changes" comment="DiseaseUpdate6">
+    <list default="true" id="7de37529-de44-4517-9f3e-5a2d8f3edcfc" name="Changes" comment="DiseaseUpdate8">
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/fertilizer_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/aphids/Fipronil.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/aphids/KayBee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/aphids/Tafgor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/aphids/aphids.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/armyworm/KayBee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/armyworm/ProfexSuper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/armyworm/SyngentaAmpligo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/armyworm/armyworm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/cornborer/KayBee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/cornborer/ProfexSuper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/cornborer/SyngentaAmpligo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/cornborer/corn_borer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/fallarmyworm/fallarmyworm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/fleabeetle/KayBee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/fleabeetle/ProfexSuper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/fleabeetle/SyngentaAlika.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/fleabeetle/fleabeetle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/gallflies/KayBee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/gallflies/ProfexSuper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/gallflies/SyngentaAlika.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/gallflies/gallflies.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/grasshopper/KayBee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/grasshopper/SyngentaAmpligo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/grasshopper/SyngentaEkalux.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/grasshopper/grasshopper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/internodeborer/KayBee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/internodeborer/ProfexSuper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/internodeborer/SyngentaAmpligo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/internodeborer/internodeborer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/locust/KayBee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/locust/SyngentaAmpligo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/locust/SyngentaKarate.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/locust/locust.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/mealybug/KayBee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/mealybug/ProfexSuper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/mealybug/SyngentaAmpligo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/mealybug/mealybug.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/mites/KayBee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/mites/ProfexSuper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/mites/SyngentaAlika.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/mites/mites.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/mosquito/dowdursban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/mosquito/gharda_kingdoxa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/mosquito/mosquito.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/mosquito/neemoil.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/mustardsawfly/KayBee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/mustardsawfly/ProfexSuper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/mustardsawfly/SyngentaAlika.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/mustardsawfly/mustardsawfly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/pinkbollworm/KayBee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/pinkbollworm/PinkBollWorm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/pinkbollworm/SyngentaAmpligo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/pinkbollworm/gharda_kingdoxa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/sawfly/KayBee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/sawfly/ProfexSuper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/sawfly/SyngentaAlika.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/sawfly/sawfly.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/soybeangirdle/KayBee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/soybeangirdle/ProfexSuper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/soybeangirdle/SyngentaAlika.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/soybeangirdle/fleabeetle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/soybeangirdle/soybeangirdle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/soybeanwhitefly/KayBee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/soybeanwhitefly/TataAsataf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/soybeanwhitefly/ashwamedh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/soybeanwhitefly/pegasus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/soybeanwhitefly/soybeanwhitefly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/stemborer/KayBee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/stemborer/ProfexSuper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/stemborer/SyngentaAmpligo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/stemborer/stemborer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/stemborer/stemborer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/thistlecaterpillar/KayBee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/thistlecaterpillar/ProfexSuper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/thistlecaterpillar/gharda_kingdoxa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/thistlecaterpillar/thistlecaterpillar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/tobaccocaterpillar/KayBee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/tobaccocaterpillar/ProfexSuper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/tobaccocaterpillar/gharda_kingdoxa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/tobaccocaterpillar/thistlecaterpillar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pesticide/tobaccocaterpillar/tobaccocaterpillar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/fertilizer2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/flea_beetle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pink_boll_worm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/aphids/banzo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/aphids/derby.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/aphids/fulstop-d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/aphids/intice.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/aphids/ultimo-200-sl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/aphids/ultimo-super.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/armyworm/perfek-315-ec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/armyworm/prudent-50-ec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/beetle/smash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/bollworm/auzar-25-ec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/bollworm/bioclaim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/bollworm/fulstop-d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/bollworm/kozuka.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/earthworm/biostadt-malathion-57-ec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/earthworm/smash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/grasshopper/biostadt-malathion-57-ec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/grasshopper/perfek-315-ec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/mites/bioclaim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/mites/biostadt-malathion-57-ec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/mites/inclaim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/mites/ingage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/mosquito/evident.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/mosquito/thiomax.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/sawfly/krush.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/stem borer/cartop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pesticide/stem borer/voter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/aphids.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/aphids.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/armyworm.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/armyworm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/beetle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bollworm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/corn_borer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/corn_borer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/crop_disease.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/crop_disease.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/gall_flies.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gall_flies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/grasshopper.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/grasshopper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/locust.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/locust.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/maize_army_worm.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/fall_army_worm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mites.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mosquito.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mosquito.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mustard_saw_fly.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mustard_saw_fly.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pest.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sawfly.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sawfly.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/soybean_girdle_beetle.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/soybean_girdle_beetle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/soybean_white_fly.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/soybean_white_fly.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/stem_borer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/stem_borer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sugarcane_internode_borer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sugarcane_internode_borer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sugarcane_mealy_bug.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sugarcane_mealy_bug.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/thistle_caterpillar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/thistle_caterpillar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tobacco_leaf_eating_caterpillar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tobacco_leaf_eating_caterpillar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +183,13 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lenova/PycharmProjects/CropLife4&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lenova/PycharmProjects/CropLife4/templates&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenova\PycharmProjects\CropLife4\templates" />
       <recent name="C:\Users\lenova\PycharmProjects\CropLife3" />
       <recent name="C:\Users\lenova\PycharmProjects\CropLife3\templates" />
     </key>
@@ -179,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656588868444</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="DiseaseUpdate7">
+      <created>1656668887176</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1656668887176</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +343,8 @@
     <MESSAGE value="DiseaseUpdate" />
     <MESSAGE value="DiseaseUpdate5" />
     <MESSAGE value="DiseaseUpdate6" />
-    <option name="LAST_COMMIT_MESSAGE" value="DiseaseUpdate6" />
+    <MESSAGE value="DiseaseUpdate7" />
+    <MESSAGE value="DiseaseUpdate8" />
+    <option name="LAST_COMMIT_MESSAGE" value="DiseaseUpdate8" />
   </component>
 </project>

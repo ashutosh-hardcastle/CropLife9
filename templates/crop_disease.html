@@ -7,7 +7,7 @@
 
 {% block body %}
 
-<title>Plant AI</title>
+<title>CropLife</title>
   <!--meta tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,14 +30,98 @@
 </head>
 
 <body>
+<br>
+<br>
+
+<div class="container">
+            <center><h3>Identify diseases from the following crops!</h3></center>
+        </div>
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
+
+<table>
+  <tr>
+    <th>Apple</th>
+  </tr>
+  <tr>
+    <th>Blueberry</th>
+  </tr>
+  <tr>
+    <th>Cherry</th>
+  </tr>
+  <tr>
+    <th>Corn</th>
+  </tr>
+  <tr>
+    <th>Cotton</th>
+  </tr>
+  <tr>
+    <th>Grape</th>
+  </tr>
+  <tr>
+    <th>Orange</th>
+  </tr>
+    <tr>
+    <th>Peach</th>
+  </tr>
+    <tr>
+    <th>Pepperbell</th>
+  </tr>
+    <tr>
+    <th>Potato</th>
+  </tr>
+    <tr>
+    <th>Raspberry</th>
+  </tr>
+    <tr>
+    <th>Rice</th>
+  </tr>
+    <tr>
+    <th>Soybean</th>
+  </tr>
+    <tr>
+    <th>Squash</th>
+  </tr>
+    <tr>
+    <th>Strawberry</th>
+  </tr>
+      <tr>
+    <th>Tomato</th>
+  </tr>
+      <tr>
+    <th>Sugarcane</th>
+  </tr>
+      <tr>
+    <th>Wheat</th>
+  </tr>
+</table>
+
 
   <section class="blog_w3ls py-3 pb-5 pt-10" id="test">
     <div class="container pb-xl-5 pb-lg-3">
       <br>
       <br>
-      <br>
 
-      <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3"> Test Your Plants</h3>
+      <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3"> Test Your Crop!</h3>
       <div class="row" style="justify-content: center;">
         <form action="{{ url_for('disease_predict') }}" method="POST" enctype=multipart/form-data>
           <div class="form-group text-center">
@@ -54,6 +138,51 @@
     </div>
 
   </section>
+
+
+<!-- service -->
+  <section class="service pb-5 " id="features">
+    <div class="container ">
+      <h3 class="title text-center mb-3">Features</h3>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-6 mt-lg-4 mt-3 service-grid-wthree text-center">
+          <div class="ser-Agriculture-grid">
+            <div class="about-icon mb-md-4 mb-3">
+              <span class="fa fa-viadeo" aria-hidden="true"></span>
+            </div>
+            <div class="ser-sevice-grid">
+              <h4 class="pb-3">Easy Detection</h4>
+              <p>Simply upload a leaf image to detect the disease.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 mt-lg-4 mt-3 service-grid-wthree text-center">
+          <div class="ser-Agriculture-grid">
+            <div class="about-icon mb-md-4 mb-3">
+              <span class="fa fa-pagelines" aria-hidden="true"></span>
+            </div>
+            <div class="ser-sevice-grid">
+              <h4 class="pb-3">Causes and Solutions</h4>
+              <p>Provides the cause and solution of the identified disease.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 mt-lg-4 mt-3 service-grid-wthree text-center">
+          <div class="ser-Agriculture-grid">
+            <div class="about-icon mb-md-4 mb-3">
+              <span class="fa fa-leaf" aria-hidden="true"></span>
+            </div>
+            <div class="ser-sevice-grid">
+              <h4 class="pb-3">Large Plant Support</h4>
+              <p>Supports around 18 different types of plants and 57 diseases.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

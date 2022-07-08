@@ -1,0 +1,99 @@
+{% extends "layout.html" %}
+
+{% block nav %}
+<li><a href="index.html">Home</a></li>
+<li><a href="CropRecommendation.html">Crop</a></li>
+<li><a href="fertilizer.html">Fertilizer</a></li>
+<li><a href="pesticide.html" class="active">Pesticide</a></li>
+{% endblock %}
+
+{% block body %}
+<br /><br />
+<h2 style="text-align: center; margin: 0px; color: black">
+    <b>Pest Name: Flea Beetle</b>
+</h2>
+ <div class="container">
+            <h3 style="padding: 15px; background-color: rgb(20,23,25); color: #fff; font-weight: bold;"  class="text-center my-3 content-h3">Information</h3>
+        </div>
+
+<div class="container" style="max-width:900px; text-align: justify;">
+
+    <p style="color: #000; font-size: 18px"></p>
+    <p style="color: #000; font-size: 18px"></p>
+    <p style="color: #000; font-size: 18px"> Flea beetles have huge rear legs that jump like fleas when attacked. They
+        are tiny, shiny-coated beetles. Flea beetles come in a variety of species. While some species attack various
+        plants, others exclusively strike a few families of plants. Many vegetable plants are vulnerable to these pests
+        in the garden. Still, those in the Brassica family, like broccoli, cabbage, kale, radishes, and turnips, and
+        Nightshades, like tomatoes, peppers, and eggplants, are particularly vulnerable.</p> <br>
+
+    <center><img class="image" src="static/images/pesticide/fleabeetle/fleabeetle.jpg" alt="fleabeetle"></center>
+
+    <p style="color: #000; font-size: 18px">Symptoms:</p>
+    <p style="color: #000; font-size: 17px"> 1. Adults eat leaves for food. Small, dispersed shot-like holes (1-2 mm) and small chewing cavities that do not cut through the leaf blade are the visible signs of damage (pitting).</p>
+    <p style="color: #000; font-size: 17px"> 2. Around the injured tissue, there may be a faint discoloration.</p>
+    <p style="color: #000; font-size: 17px"> 3. Depending on the species, tubers are bored with shallow, straight holes at varying depths. The surface of the tuber may also develop a few little raised bumps due to the injury.</p>
+    <br>
+    <br>
+    <p style="color: #000; font-size: 18px">Organic Control:</p>
+    <p style="color: #000; font-size: 17px"> One can utilize fungus-based diseases, insecticidal soaps, or the bacterial
+        pesticide Spinosad to control populations. Adult damsel bugs (Nabis spp.), lacewing (Chrysopa spp.) larvae, and
+        several parasitoid wasps consume or kill adult flea beetles. Some nematodes also consume the soil-dwelling
+        larvae.</p>
+
+
+    </div>
+
+    <section>
+
+        <div class="container">
+            <h3 style="padding: 15px; background-color: rgb(20,23,25); color: #fff; font-weight: bold;"
+                class="text-center my-3 content-h3">
+                Recommended Products</h3>
+        </div>
+
+
+<div class="container">
+            <div class="card-columns">
+                <div class="card" style="display:inline-block;">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 5%; margin-left:5%;"
+                             class="img-fluid" src="static/images/pesticide/fleabeetle/SyngentaAlika.jpg" alt="SyngentaAlika">
+                     <h3 class="card-text"><b>Syngenta Alika</b></h3>
+                        <h3 class="card-text" style="font-size: 1.25rem">Thiamethoxam 12.6%<br>+Lambda Cyhalothrin 9.5% Zc</h3>
+                        <h3 class="card-text"><b>Dose:</b> 100 ml/acre</h3>
+                        <p style="font-weight:bold"><a href="https://www.amazon.in/Syngenta-Thiamethoxam-Lambda-Cyhalothrin-Insecticide/dp/B08QMYC813/ref=sr_1_1?crid=F7FV5B6MFLDC&keywords=alika+insecticide&qid=1656932893&sprefix=alika%2Caps%2C226&sr=8-1">Buy!</a></p>
+                    </div>
+
+                </div>
+                <div class="card" style="display:inline-block;">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 5%;margin-left:5%;"
+                             class="img-fluid" src="static/images/pesticide/fleabeetle/ProfexSuper.jpg" alt="ProfexSuper">
+                        <h3 class="card-text"><b>Profex Super</b></h3>
+                        <h3 class="card-text" style="font-size: 1.25rem">Profenofos 40%+Cypermethrin 4% E.C.</h3>
+                        <h3 class="card-text"><b>Dose:</b> 400 ml/acre</h3>
+                        <p style="font-weight:bold"><a href="https://krushikendra.com/PROFEX-SUPER-Profenofos-40-Cypermethrin-4-EC?search=Profenofos%2040%25%20%2B%20Cypermethrin%204%25%20E.C.&description=true">Buy!</a></p>
+                    </div>
+
+                </div>
+                <div class="card" style="display:inline-block;">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 5%;margin-left:5%;"
+                             class="img-fluid" src="static/images/pesticide/fleabeetle/KayBee.jpg" alt="KayBee">
+                        <h3 class="card-text"><b>Kay Bee<br>(Organic)</b></h3>
+                        <h3 class="card-text" style="font-size: 1.25rem">Azadiractin 10000 PPM</h3>
+                        <h3 class="card-text"><b>Dose:</b> 250 ml/acre</h3>
+                        <p style="font-weight:bold"><a href="https://www.amazon.in/Azadirachtin-Based-Environmental-Friendly-Bio-Pesticide-Neem/dp/B08WJDTSC9/ref=sr_1_7?keywords=azadirachtin%2B10000%2Bppm&qid=1657018117&s=garden&sr=1-7&th=1">Buy!</a></p>
+                    </div>
+
+
+                </div>
+
+
+
+
+    </div>
+    </div>
+    </section>
+
+{% endblock %}
